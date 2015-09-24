@@ -4,7 +4,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="shortcut icon" href="http://students.washington.edu/sjsn/onlineportfolio/images/favicon.ico">
 	<title>Samuel San Nicolas</title>
- 	<script type="text/javascript" src="index.js"></script>
+ 	<script src="Chart.js"></script>
 	<link rel="stylesheet" type="text/css" href="index.css" />
 	<!-- Font -->
 	<link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
@@ -47,27 +47,41 @@
 			I have passions for programming, building hardware, and <a href="http://youtube.com/CollegeDropoutsGaming">
 			content creation</a>. 
 	</div>
-	<!-- <div id="skills">
-		<h4>Skills</h4>
-	</div> -->
+	<div id="interests">
+		<div id="skills">
+			<h4>Skills</h4>
+			<canvas id="skillsChart" width="300px" height="300px"></canvas>
+			<script type="text/javascript" src="index.js"></script>
+		</div>
+		<div id="hobbies">
+			<h4>Hobbies</h4>
+			<ul>
+				<li>Running</li>
+				<li>Game Development</li>
+				<li>Mobile App Development</li>
+				<li>YouTube Content Creation</li>
+				<li>Game Developement</li>
+			</ul>
+		</div>
+	</div>
 </section>
 <section id="workExperience">
 	<h3>Work Experience</h3>
 	<div id="job">
 		<h4><a href="https://www.gototags.com">GoToTags</a></h4>
 		<a href="https://www.gototags.com/">
-			<img src="images/gototags_logo.png" alt="GoToTags Logo" height="125px" width="125px" id="got">
+			<img src="images/gototags-logo.png" alt="GoToTags Logo" height="125px" width="125px" id="got">
 		</a>
 		<h5>Intern</h5>
 		<h6>10/2014 - Present</h6>
 		<p>Powering the Internet of Things (IoT) with hardware and software solutions that enable NFC, RF, BLE, and QR technologies.</p>
 	</div>
 	<div id="job">
+		<h4><a href="http://www.digivations.com/">Digivations</a></h4>
 		<a href="http://www.digivations.com/">
-			<h4><a href="http://www.digivations.com/">Digivations</a></h4>
-			<img src="images/digivations_logo.jpg" alt="Digivations Logo" height="117px" width="172px" id="dig">
+			<img src="images/digivations_logo.png" alt="Digivations Logo" height="117px" width="172px" id="dig">
 		</a>
-		<h5>Teacher/Counselor</h5>
+		<h5>Instructor/Counselor</h5>
 		<h6>6/2014 - 9/2014</h6>
 		<p>Inspiring world building and innovation through their STEM + Arts + Movement curriculum.</p>
 	</div>
@@ -83,7 +97,7 @@
 	<h3>Resume</h3>
 	<div id="imgHolder">
 		<a href="images/Sam_San_Nicolas_Resume.pdf" type="_parent">
-			<img src="images/Sam_San_Nicolas_Resume.jpg" height="100%" width="100%">
+			<img src="images/Sam_San_Nicolas_Resume.jpg" height="100%" width="110%">
 		</a>
 	</div>
 </section>
