@@ -12,6 +12,7 @@
 
 <body>
 <section id="header">	
+	<h1>Samuel San Nicolas</h1>
 	<img src="images/sam_san_nicolas.jpg" alt="Samuel San Nicolas" height="175px" width="175px">
 	<div id="contact">
 		<a href="mailto:samuelsan3@gmail.com" target="_top">
@@ -23,21 +24,24 @@
 		<a href="https://www.linkedin.com/pub/samuel-san-nicolas/a6/190/bb4">
 			<img src="images/linkedin.png" alt="email" height="40px" width="40px" id="nav">
 		</a>
+		<a id="hideText">
+			<img src="images/Raspi.png" alt="raspberry pi" height="40px" width="40px" id="nav">
+				<span id="showText">This website is hosted on a Raspberry Pi!</span>
+		</a>
 	</div>
 	<div id="menu">
 		<ul>
-			<li><a href="#">Home</a></li>
-			<li><a href="#">About</a></li>
-			<li><a href="#">Work Experience</a></li>
-			<li><a href="#">Resume</a></li>
+			<li><a href="#header">Home</a></li>
+			<li><a href="#about">About</a></li>
+			<li><a href="#workExperience">Work Experience</a></li>
+			<li><a href="#resume">Resume</a></li>
 		</ul>
 	</div>
 </section>
 <section id="about">
 	<div id="bio">
 		<h3>About Me</h3>
-		<h1>Samuel San Nicolas</h1>
-		<p> I am a Junior at the <a href="http://www.washington.edu/"> Univeresity of Washington </a> 
+		<p> Welcome to my online portfolio! My name is Samuel San Nicolas and I am a Junior at the <a href="http://www.washington.edu/"> University of Washington </a> 
 			interested in studying Informatics with a minor in Entrepreneurship. I currently am an intern 
 			at <a href="http://www.gototags.com">GoToTags</a> but am always looking for new opportunities. 
 			I have passions for programming, building hardware, and <a href="http://youtube.com/CollegeDropoutsGaming">

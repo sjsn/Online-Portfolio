@@ -17,6 +17,11 @@ body {
 	#bio {
 		width: 700px;
 	}
+
+	a#hideText:hover > span#showText {
+		bottom: 3px;
+		width: 125px;
+	}
 }
 
 @media only screen and (max-width: 500px) {
@@ -38,6 +43,12 @@ body {
 	#bio {
 		width: 90%;
 	}
+
+	a#hideText:hover > span#showText {
+		bottom: 5px;
+		left: 50px;
+		width: 50px;
+	}
 }
 
 #header {
@@ -45,6 +56,13 @@ body {
 	width: 100%;
 	text-align: center;
 	background-color: #eaf4f6;;
+}
+
+#header > h1 {
+	margin: auto;
+	font-size: 35px;
+	padding-top: 20px;
+	color: #80766a;
 }
 
 #header > img {
@@ -61,6 +79,27 @@ body {
 #nav {
 	padding-left: 5px;
 	padding-right: 5px;
+}
+
+a#hideText {
+	position: relative;
+	text-decoration: none;
+	z-index: 20;
+}
+
+a#hideText {
+	z-index: 30;
+}
+
+span#showText {
+	display: none;
+}
+
+a#hideText:hover > span#showText {
+	display: inline-block;
+	position: absolute;
+	color: #80766a;
+	text-align: center;
 }
 
 ul {
@@ -96,11 +135,6 @@ a:hover {
 #bio {
 	margin-top: 10px;
 	display: inline-block;
-}
-
-#bio > h1 {
-	margin: auto;
-	font-size: 35px;
 }
 
 #bio > h2 {
