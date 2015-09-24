@@ -234,8 +234,13 @@ h4 {
 	margin-top: 15px;
 }
 
-#workExperience {
+#experience {
 	text-align: center;
+}
+
+#workExperience > h4, #extracurricular > h4 {
+	margin-top: 15px;
+	margin-bottom: 0px;
 }
 
 #job {
@@ -247,47 +252,29 @@ h4 {
 	border-radius: 10%;
 }
 
-img#got {
-	padding-top: 10px;
+#content {
+	position: relative;
+	top: 50%;
+	transform: translateY(-55%);
 }
 
-img#dig {
-	padding-top: 25px;
-	padding-bottom: 10px;
-}
-
-img#new {
-	padding-top: 30px;
-	padding-bottom: 15px;
-}
-
-#job > h4 {
-	margin-top: 10px;
-	margin-bottom: 2px;
-}
-
-#job > h5 {
-	font-size: 18px;
+#content > h4, #content > h5, #content > h6 {
 	color: #80766a;
+}
+
+#content > h5 {
+	font-size: 18px;
 	margin-top: 1px;
 	margin-bottom: 1px;
 }
 
-#job > h6 {
+#content > h6 {
 	font-size: 15px;
-	color: #80766a;
 	margin-top: 1px;
 	margin-bottom: 2px;
 }
 
-h4#next {
-	margin-bottom: 15px;
-	margin-top: 0px;
-}
-
-#job > p {
-	padding-left: 5px;
-	padding-right: 5px;
+#content > p {
 	margin: 0px;
 }
 

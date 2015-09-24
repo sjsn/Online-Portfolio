@@ -33,7 +33,7 @@
 		<ul>
 			<li><a href="#header">Home</a></li>
 			<li><a href="#about">About</a></li>
-			<li><a href="#workExperience">Work Experience</a></li>
+			<li><a href="#experience">Experience</a></li>
 			<li><a href="#resume">Resume</a></li>
 		</ul>
 	</div>
@@ -65,32 +65,74 @@
 		</div>
 	</div>
 </section>
-<section id="workExperience">
-	<h3>Work Experience</h3>
-	<div id="job">
-		<h4><a href="https://www.gototags.com">GoToTags</a></h4>
-		<a href="https://www.gototags.com/">
-			<img src="images/gototags-logo.png" alt="GoToTags Logo" height="125px" width="125px" id="got">
-		</a>
-		<h5>Intern</h5>
-		<h6>10/2014 - Present</h6>
-		<p>Powering the Internet of Things (IoT) with hardware and software solutions that enable NFC, RF, BLE, and QR technologies.</p>
+<section id="experience">
+	<h3>Experience</h3>
+	<div id="workExperience">
+		<h4>Work Experience</h4>
+		<div id="job">
+			<div id="content">
+				<h4><a href="https://www.gototags.com">GoToTags</a></h4>
+				<a href="https://www.gototags.com/">
+					<img src="images/gototags-logo.png" alt="GoToTags Logo" height="125px" width="125px">
+				</a>
+				<h5>Intern</h5>
+				<h6>10/2014 - Present</h6>
+				<p>Powering the Internet of Things (IoT) with hardware and software solutions that enable NFC, RF, BLE, and QR technologies.</p>
+			</div>
+		</div>
+		<div id="job">
+			<div id="content">
+				<h4><a href="http://www.digivations.com/">Digivations</a></h4>
+				<a href="http://www.digivations.com/">
+					<img src="images/digivations_logo.png" alt="Digivations Logo" height="117px" width="172px">
+				</a>
+				<h5>Instructor/Counselor</h5>
+				<h6>6/2014 - 9/2014</h6>
+				<p>Inspiring world building and innovation through their STEM + Arts + Movement curriculum.</p>
+			</div>
+		</div>
+		<div id="job">
+			<div id="content">
+				<a href="mailto:samuelsan3@gmail.com" target="_top">
+					<img src="images/plus.png" height="128px" width="128px">
+				</a>
+				<h4 id="next"><a href="mailto:samuelsan3@gmail.com" target="_top">Next?</a></h4>
+				<p>I am always seeking new opportunities and adventures! Do you have something that might interest me? Let me know here!</p>
+			</div>
+		</div>
 	</div>
-	<div id="job">
-		<h4><a href="http://www.digivations.com/">Digivations</a></h4>
-		<a href="http://www.digivations.com/">
-			<img src="images/digivations_logo.png" alt="Digivations Logo" height="117px" width="172px" id="dig">
-		</a>
-		<h5>Instructor/Counselor</h5>
-		<h6>6/2014 - 9/2014</h6>
-		<p>Inspiring world building and innovation through their STEM + Arts + Movement curriculum.</p>
-	</div>
-	<div id="job">
-		<a href="mailto:samuelsan3@gmail.com" target="_top">
-			<img src="images/plus.png" height="128px" width="128px" id="new">
-		</a>
-		<h4 id="next"><a href="mailto:samuelsan3@gmail.com" target="_top">Next?</a></h4>
-		<p>I am always seeking new opportunities and adventures! Do you have something that might interest me? Let me know here!</p>
+	<div id="extracurricular">
+		<h4>Extracurricular</h4>
+		<div id="job">
+			<div id="content">
+				<h4><a href="http://gamedev.cs.washington.edu/">Game Dev Club, UW</a></h4>
+				<a href="http://gamedev.cs.washington.edu/">
+					<img src="images/Unity_Logo.png" alt="unity" width="125px" height="125px">
+				</a>
+				<h5>Member</h5>
+				<h6>2014-Present</h6>
+			</div>
+		</div>
+		<div id="job">
+			<div id="content">
+				<h4><a href="http://startupuw.com/">Startup UW</a></h4>
+				<a href="http://startupuw.com/">
+					<img src="images/suw_logo.png" alt="suw" width="200px" height="81px">
+				</a>
+				<h5>Member</h5>
+				<h6>2014-Present</h6>
+			</div>
+		</div>
+		<div id="job">
+			<div id="content">
+				<h4><a href="http://students.washington.edu/uwrunner/">Husky Running Club</a></h4>
+				<a href="http://students.washington.edu/uwrunner/">
+					<img src="images/hrc_logo.png" alt="hrc" width="103px" height="134px">
+				</a>
+				<h5>Run Leader</h5>
+				<h6>2013-Present</h6>
+			</div>
+		</div>
 	</div>
 </section>
 <section id="resume">

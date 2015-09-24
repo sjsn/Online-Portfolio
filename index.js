@@ -12,7 +12,7 @@ var data = {
 			pointStrokeColor: "#5fa2a0",
 			pointHighlightFill: "#08a99a",
 			pointHighlightStroke: "#74c1aa",
-			data: [7, 6, 8, 4, 9, 6, 8, 9]
+			data: [7, 4, 8, 4, 9, 6, 8, 9]
 		}
 	]
 }
