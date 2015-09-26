@@ -4,6 +4,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="shortcut icon" href="http://students.washington.edu/sjsn/onlineportfolio/images/favicon.ico">
 	<title>Samuel San Nicolas</title>
+	<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.min.js"></script>
  	<script src="Chart.js"></script>
 	<link rel="stylesheet" type="text/css" href="index.css" />
 	<!-- Font -->
@@ -14,7 +15,7 @@
 <section id="header">	
 	<h1>Samuel San Nicolas</h1>
 	<img src="images/sam_san_nicolas.jpg" alt="Samuel San Nicolas" height="175px" width="175px">
-	<div id="contact">
+	<div class="contact">
 		<a href="mailto:samuelsan3@gmail.com" target="_top">
 			<img src="images/email.png" alt="email" height="40px" width="40px" id="nav">
 		</a>
@@ -29,7 +30,7 @@
 				<span id="showText">This website is hosted on a Raspberry Pi!</span>
 		</a>
 	</div>
-	<div id="menu">
+	<div class="menu">
 		<ul>
 			<li><a href="#header">Home</a></li>
 			<li><a href="#about">About</a></li>
@@ -56,11 +57,10 @@
 		<div id="hobbies">
 			<h4>Hobbies</h4>
 			<ul>
-				<li>Running</li>
 				<li>Game Development</li>
 				<li>Mobile App Development</li>
 				<li>YouTube Content Creation</li>
-				<li>Game Developement</li>
+				<li>Running</li>
 			</ul>
 		</div>
 	</div>
@@ -69,7 +69,7 @@
 	<h3>Experience</h3>
 	<div id="workExperience">
 		<h4>Work Experience</h4>
-		<div id="job">
+		<div class="job">
 			<div id="content">
 				<h4><a href="https://www.gototags.com">GoToTags</a></h4>
 				<a href="https://www.gototags.com/">
@@ -80,7 +80,7 @@
 				<p>Powering the Internet of Things (IoT) with hardware and software solutions that enable NFC, RF, BLE, and QR technologies.</p>
 			</div>
 		</div>
-		<div id="job">
+		<div class="job">
 			<div id="content">
 				<h4><a href="http://www.digivations.com/">Digivations</a></h4>
 				<a href="http://www.digivations.com/">
@@ -91,7 +91,7 @@
 				<p>Inspiring world building and innovation through their STEM + Arts + Movement curriculum.</p>
 			</div>
 		</div>
-		<div id="job">
+		<div class="job">
 			<div id="content">
 				<a href="mailto:samuelsan3@gmail.com" target="_top">
 					<img src="images/plus.png" height="128px" width="128px">
@@ -103,7 +103,7 @@
 	</div>
 	<div id="extracurricular">
 		<h4>Extracurricular</h4>
-		<div id="job">
+		<div class="job">
 			<div id="content">
 				<h4><a href="http://gamedev.cs.washington.edu/">Game Dev Club, UW</a></h4>
 				<a href="http://gamedev.cs.washington.edu/">
@@ -113,7 +113,7 @@
 				<h6>2014-Present</h6>
 			</div>
 		</div>
-		<div id="job">
+		<div class="job">
 			<div id="content">
 				<h4><a href="http://startupuw.com/">Startup UW</a></h4>
 				<a href="http://startupuw.com/">
@@ -123,7 +123,7 @@
 				<h6>2014-Present</h6>
 			</div>
 		</div>
-		<div id="job">
+		<div class="job">
 			<div id="content">
 				<h4><a href="http://students.washington.edu/uwrunner/">Husky Running Club</a></h4>
 				<a href="http://students.washington.edu/uwrunner/">
@@ -139,7 +139,27 @@
 	<h3>Resume</h3>
 	<div id="imgHolder">
 		<a href="images/Sam_San_Nicolas_Resume.pdf" type="_parent">
-			<img src="images/Sam_San_Nicolas_Resume.jpg" height="100%" width="110%">
+			<img src="images/Sam_San_Nicolas_Resume.jpg" height="75%" width="80%">
+		</a>
+	</div>
+</section>
+<section  id="footer">
+	<div class="copyright">
+		<p>Created by <span id="signature">Samuel San Nicolas</span></p> 
+	</div>
+	<div class="botContact">
+		<a href="mailto:samuelsan3@gmail.com" target="_top">
+			<img src="images/email.png" alt="email" height="40px" width="40px" id="nav">
+		</a>
+		<a href="https://github.com/sjsn">
+			<img src="images/github.png" alt="email" height="40px" width="40px" id="nav">
+		</a>
+		<a href="https://www.linkedin.com/pub/samuel-san-nicolas/a6/190/bb4">
+			<img src="images/linkedin.png" alt="email" height="40px" width="40px" id="nav">
+		</a>
+		<a id="hideText">
+			<img src="images/Raspi.png" alt="raspberry pi" height="40px" width="40px" id="nav">
+				<span id="showText">This website is hosted on a Raspberry Pi!</span>
 		</a>
 	</div>
 </section>
