@@ -1,2 +1,2 @@
 # Online-Portfolio
-samuelsannicolas.com
+www.samuelsannicolas.com
