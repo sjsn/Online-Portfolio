@@ -7,8 +7,8 @@
 	"use strict";
 
 	var timer = null; // Interval variable
-	var colorTimer = null;
-	var index = 1;
+	var colorTimer = null; // Interval variable for title color change
+	var colorIndex = 1; // Ind
 	var correct = 0; // Total number of points
 	var time = 0; // Total time elapsed
 	var timeCheck = time + (intervalTime * 100); // When the interval should end
@@ -18,8 +18,8 @@
 	var guesses = []; // Log of how long between each guess
 	var bestTime = 4; // Default best guess time
 	var intervalTime = 4; // Initial time between intervals (initial = 4 sec)
-	var OPTIONS = ["black", "red", "yellow", "blue", "green", 
-		"pink", "purple", "orange", "cyan"];
+	var OPTIONS = ["black", "purple", "blue", "cyan", "green", "yellow", 
+	"orange", "pink", "red"];
 
 	// Anonymous function that is called when the page loads
 	window.onload = function() {
@@ -36,11 +36,11 @@
 
 	// Interval that constantly changes the word 'color'. Turns off when game starts
 	function startChange() {
-		document.getElementById("colorChange").style.color = OPTIONS[index];
-		if (index > OPTIONS.length - 2) {
-			index = 0;
+		document.getElementById("colorChange").style.color = OPTIONS[colorIndex];
+		if (colorIndex > OPTIONS.length - 2) {
+			colorIndex = 0;
 		} else {
-			index++;
+			colorIndex++;
 		}
 	}
 
@@ -270,6 +270,7 @@
 	game to start */
 	function preGame() {
 		clearInterval(colorTimer);
+		document.getElementById("colorChange").style.color = "black";
 		colorTimer = null;
 		document.getElementById("statsArea").style.display = "none";
 		document.getElementById("avg").style.display = "none";

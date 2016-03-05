@@ -1,13 +1,5 @@
-<<<<<<< HEAD
-var data = {
-	labels: ["Java", "Javascript", "SQL", "PHP", "Video Editing", "Photography", "Adobe Suite", "Microsoft Office", "Android Studio"],
-=======
-/*var skillsData = new Array (['Java', 7]), ['Javascript', 7], ['HTML/CSS', 8], ['PHP', 4], 
-   ['Video Editing', 9], ['Photography', 6], ['Adobe Suite', 8], ['Microsoft Office', 9]);*/
-
 var data = {
 	labels: ["Java", "Javascript", "HTML/CSS", "PHP", "Video Editing", "Photography", "Adobe Suite", "Microsoft Office"],
->>>>>>> 1c9aa5789c4b408cbbbff25a64d39839038b35ee
 	datasets: [
 		{
 			label: "My Skillset",
@@ -17,11 +9,7 @@ var data = {
 			pointStrokeColor: "#5fa2a0",
 			pointHighlightFill: "#08a99a",
 			pointHighlightStroke: "#74c1aa",
-<<<<<<< HEAD
 			data: [7, 8, 6, 8, 9, 6, 8, 9, 6]
-=======
-			data: [7, 4, 8, 4, 9, 6, 8, 9]
->>>>>>> 1c9aa5789c4b408cbbbff25a64d39839038b35ee
 		}
 	]
 }
