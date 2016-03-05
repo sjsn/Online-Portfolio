@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="author" content="Samuel San Nicolas">
+	<meta name="description" content="Samuel San Nicolas Online Portfolio">
+	<meta type="keywords" content="Samuel San Nicolas, Online Portfolio, Resume, Sam San Nicolas, Samuel James San Nicolas">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="http://students.washington.edu/sjsn/onlineportfolio/images/favicon.ico">
+	<title>Samuel San Nicolas</title>
+	<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.min.js"></script>
+ 	<script src="Chart.js"></script>
+	<link rel="stylesheet" type="text/css" href="index.css" />
+	<!-- Font -->
+	<link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+<section id="header">	
+	<h1>Samuel San Nicolas</h1>
+	<img src="images/sam.jpeg" alt="Samuel San Nicolas" height="175px" width="175px">
+	<div class="contact">
+		<a href="mailto:samuelsan3@gmail.com" target="_top">
+			<img src="images/email.png" alt="email" height="40px" width="40px" id="nav">
+		</a>
+		<a href="https://github.com/sjsn">
+			<img src="images/github.png" alt="email" height="40px" width="40px" id="nav">
+		</a>
+		<a href="https://www.linkedin.com/pub/samuel-san-nicolas/a6/190/bb4">
+			<img src="images/linkedin.png" alt="email" height="40px" width="40px" id="nav">
+		</a>
+		<a id="hideText">
+			<img src="images/Raspi.png" alt="raspberry pi" height="40px" width="40px" id="nav">
+				<span id="showText">This website is hosted on a Raspberry Pi!</span>
+		</a>
+	</div>
+	<div class="menu">
+		<ul>
+			<li><a href="#header">Home</a></li>
+			<li><a href="#about">About</a></li>
+			<li><a href="#experience">Experience</a></li>
+			<li><a href="images/Sam_San_Nicolas_Resume.pdf" type="_parent">Resume</a></li>
+		</ul>
+	</div>
+</section>
+<section id="about">
+	<div id="bio">
+		<h3>About Me</h3>
+		<p> Welcome to my online portfolio! My name is Samuel San Nicolas and I am a Junior at the 
+			<a href="http://www.washington.edu/"> University of Washington</a> 
+			studying <a href="http://www.hcde.washington.edu/">Human Centered Design and Engineering</a>. I 
+			create beautiful user experiences with a focus on the interaction between humans and computers. I currently 
+			am a media professional for the Foster School of Business Instructional Media but am always looking for new 
+			opportunities. I have passions for programming, building hardware, and <a href="https://www.youtube.com/watch?v=t0l7hB-kz9c">
+			content creation</a>. 
+		</p>
+	</div>
+	<div id="interests">
+		<div id="skills">
+			<h4>Skills</h4>
+			<canvas id="skillsChart" width="300px" height="300px"></canvas>
+			<script type="text/javascript" src="index.js"></script>
+		</div>
+		<div id="hobbies">
+			<h4>Hobbies</h4>
+			<ul>
+				<li>Web Design</li>
+				<li>Game Development</li>
+				<li>Mobile App Development</li>
+				<li>YouTube Content Creation</li>
+				<li>Running</li>
+			</ul>
+		</div>
+	</div>
+</section>
+<section id="experience">
+	<h3>Experience</h3>
+	<div id="workExperience">
+		<h4>Work Experience</h4>
+		<div class="job">
+			<div class="content">
+				<h4><a href="http://foster.uw.edu/">Fosters Instructional Media</a></h4>
+				<a href="http://foster.uw.edu/">
+					<img src="images/foster-logo.png" alt="Fosters Logo" height="50px" width="200px" id="fosters">
+				</a>
+				<h5>Media Professional</h5>
+				<h6>1/2016 - Present</h6>
+				<p>
+					Providing support and training in Lecture Capture, Academic Video Production, 
+					and other technologies to the Foster School of Business.
+				</p>
+			</div>
+		</div>
+		<div class="job">
+			<div class="content">
+				<h4><a href="https://www.gototags.com">GoToTags</a></h4>
+				<a href="https://www.gototags.com/">
+					<img src="images/gototags-logo.png" alt="GoToTags Logo" height="120px" width="120px">
+				</a>
+				<h5>Intern</h5>
+				<h6>10/2014 - 1/2016</h6>
+				<p>Powering the Internet of Things (IoT) with hardware and software solutions that enable NFC, RF, BLE, and QR technologies.</p>
+			</div>
+		</div>
+		<div class="job">
+			<div class="content">
+				<h4><a href="http://www.digivations.com/">Digivations</a></h4>
+				<a href="http://www.digivations.com/">
+					<img src="images/digivations_logo.png" alt="Digivations Logo" height="117px" width="172px">
+				</a>
+				<h5>Instructor/Counselor</h5>
+				<h6>6/2014 - 9/2014</h6>
+				<p>Inspiring world building and innovation through their STEM + Arts + Movement curriculum.</p>
+			</div>
+		</div>
+		<div class="job">
+			<div class="content">
+				<a href="mailto:samuelsan3@gmail.com" target="_top">
+					<img src="images/plus.png" height="128px" width="128px">
+				</a>
+				<h4 id="next"><a href="mailto:samuelsan3@gmail.com" target="_top">Next?</a></h4>
+				<p>I am always seeking new opportunities and adventures! Do you have something that might interest me? Let me know here!</p>
+			</div>
+		</div>
+	</div>
+	<div id="extracurricular">
+		<h4>Extracurricular</h4>
+		<div class="job">
+			<div class="content">
+				<h4><a href="http://gamedev.cs.washington.edu/">Game Dev Club, UW</a></h4>
+				<a href="http://gamedev.cs.washington.edu/">
+					<img src="images/Unity_Logo.png" alt="unity" width="125px" height="125px">
+				</a>
+				<h5>Member</h5>
+				<h6>2014-Present</h6>
+			</div>
+		</div>
+		<div class="job">
+			<div class="content">
+				<h4><a href="http://startupuw.com/">Startup UW</a></h4>
+				<a href="http://startupuw.com/">
+					<img src="images/suw_logo.png" alt="suw" width="200px" height="81px">
+				</a>
+				<h5>Member</h5>
+				<h6>2014-Present</h6>
+			</div>
+		</div>
+		<div class="job">
+			<div class="content">
+				<h4><a href="http://students.washington.edu/uwrunner/">Husky Running Club</a></h4>
+				<a href="http://students.washington.edu/uwrunner/">
+					<img src="images/hrc_logo.png" alt="hrc" width="103px" height="134px">
+				</a>
+				<h5>Run Leader</h5>
+				<h6>2013-Present</h6>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="projects">
+	<h2>Projects</h2>
+	<div class="projGroup">
+		<h3>JavaScript</h3>
+		<a href="http://students.washington.edu/sjsn/reactiongame/">
+			<div id="left">
+				<h4>Reaction Game</h4>
+				<img src="images/reactiongame.png" alt="Reaction Game">
+				<p>
+					This game was written in pure JavaScript to be used by a friend
+					to test the reaction times of people based on certain criteria.
+
+				</p>
+			</div>
+		</a>
+		<a href="http://webster.cs.washington.edu/students/sjsn/hw4/fifteen.html">
+			<div id="right">
+				<h4>15 Puzzle</h4>
+				<img src="images/fifteenpuzzle.png" alt="Fifteen Puzzle">
+				<p>
+					This game was written as an assignment for CSE 154: Introduction
+					to Web Progamming. It is written in pure JavaScript and was used
+					as a tutorial/introduction to JavaScript as a language. 
+				</p>
+			</div>
+		</a>
+	</div>
+</section>
+<section id="resume">
+	<h3>Resume</h3>
+	<div id="imgHolder">
+		<a href="images/Sam_San_Nicolas_Resume.pdf" type="_parent">
+			<img src="images/Sam_San_Nicolas_Resume.jpg" alt="Resume">
+		</a>
+	</div>
+</section>
+<section  id="footer">
+	<div class="copyright">
+		<p>Created by <span id="signature">Samuel San Nicolas</span></p> 
+	</div>
+	<div class="botContact">
+		<a href="mailto:samuelsan3@gmail.com" target="_top">
+			<img src="images/email.png" alt="email" height="40px" width="40px" id="nav">
+		</a>
+		<a href="https://github.com/sjsn">
+			<img src="images/github.png" alt="email" height="40px" width="40px" id="nav">
+		</a>
+		<a href="https://www.linkedin.com/pub/samuel-san-nicolas/a6/190/bb4">
+			<img src="images/linkedin.png" alt="email" height="40px" width="40px" id="nav">
+		</a>
+		<a id="hideText">
+			<img src="images/Raspi.png" alt="raspberry pi" height="40px" width="40px" id="nav">
+				<span id="showText">This website is hosted on a Raspberry Pi!</span>
+		</a>
+	</div>
+</section>
+</body>
+</html>
