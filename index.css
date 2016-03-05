@@ -1,9 +1,12 @@
+<<<<<<< HEAD
 /*
 	terrible code...
 	need to refactor all of the css. Get rid of content inside of job, make it so there's only one.
 	Going to be a difficult job.
 */
 
+=======
+>>>>>>> 1c9aa5789c4b408cbbbff25a64d39839038b35ee
 body {
 	width: 100%;
 	overflow: scroll;
@@ -58,11 +61,14 @@ body {
 	.job {
 		margin: 15px 30px;
 	}
+<<<<<<< HEAD
 
 	#imgHolder  img {
 		width: 60%;
 		height: 55%;
 	}
+=======
+>>>>>>> 1c9aa5789c4b408cbbbff25a64d39839038b35ee
 }
 
 @media only screen and (max-width: 500px) {
@@ -109,11 +115,14 @@ body {
 		margin-top: 15px;
 		margin-bottom: 15px;
 	}
+<<<<<<< HEAD
 
 	#imgHolder img {
 		width: 80%;
 		height: 75%;
 	}
+=======
+>>>>>>> 1c9aa5789c4b408cbbbff25a64d39839038b35ee
 }
 
 #header {
@@ -179,11 +188,14 @@ a#hideText:hover > span#showText {
 	text-align: center;
 }
 
+<<<<<<< HEAD
 #fosters {
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
 
+=======
+>>>>>>> 1c9aa5789c4b408cbbbff25a64d39839038b35ee
 a {
 	color: #80766a;
 	text-decoration: none;
@@ -211,7 +223,11 @@ a:hover {
 	margin: auto;
 }
 
+<<<<<<< HEAD
 h3, #projects h2 {
+=======
+h3 {
+>>>>>>> 1c9aa5789c4b408cbbbff25a64d39839038b35ee
 	color: #80766a;
 	font-size: 25px;
 	margin-top: 10px;
@@ -219,7 +235,11 @@ h3, #projects h2 {
 	text-align: center;
 }
 
+<<<<<<< HEAD
 h4, #projects h3 {
+=======
+h4 {
+>>>>>>> 1c9aa5789c4b408cbbbff25a64d39839038b35ee
 	color: #80766a;
 	font-size: 20px;
 	margin-top: 10px;
@@ -289,31 +309,52 @@ h4, #projects h3 {
 	border-radius: 10%;
 }
 
+<<<<<<< HEAD
 .content {
+=======
+#content {
+>>>>>>> 1c9aa5789c4b408cbbbff25a64d39839038b35ee
 	position: relative;
 	top: 50%;
 	transform: translateY(-55%);
 }
 
+<<<<<<< HEAD
 .content > h4, .content > h5, .content > h6 {
 	color: #80766a;
 }
 
 .content > h5 {
+=======
+#content > h4, #content > h5, #content > h6 {
+	color: #80766a;
+}
+
+#content > h5 {
+>>>>>>> 1c9aa5789c4b408cbbbff25a64d39839038b35ee
 	font-size: 18px;
 	margin-top: 1px;
 	margin-bottom: 1px;
 }
 
+<<<<<<< HEAD
 .content > h6 {
+=======
+#content > h6 {
+>>>>>>> 1c9aa5789c4b408cbbbff25a64d39839038b35ee
 	font-size: 15px;
 	margin-top: 1px;
 	margin-bottom: 2px;
 }
 
+<<<<<<< HEAD
 .content > p {
 	margin-left: 2px;
 	margin-right: 2px;
+=======
+#content > p {
+	margin: 0px;
+>>>>>>> 1c9aa5789c4b408cbbbff25a64d39839038b35ee
 }
 
 #resume {
@@ -330,6 +371,7 @@ h4, #projects h3 {
 	display: inline-block;
 }
 
+<<<<<<< HEAD
 #projects {
 	height: 100%;
 	width: 70%;
@@ -384,6 +426,8 @@ h4, #projects h3 {
 
 }
 
+=======
+>>>>>>> 1c9aa5789c4b408cbbbff25a64d39839038b35ee
 #footer {
 	width: 100%;
 	bottom: 0;
