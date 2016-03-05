@@ -57,6 +57,33 @@ body {
 	text-decoration: underline;
 }
 
+#sound {
+	position: absolute;
+	top: 5%;
+	right: 5%;
+}
+
+#sound img {
+	width: 20px;
+	height: 20px;
+}
+
+#sound:hover {
+	cursor: pointer;
+}
+
+#points {
+	position: absolute;
+	top: 4%;
+	left: 3%;
+	font-size: 25px;
+	border: 2px solid grey;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-weight: bold;
+	color: grey;
+}
+
 #gameArea {
 	margin: auto;
 	border: 2px black solid;

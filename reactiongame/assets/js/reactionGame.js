@@ -16,13 +16,17 @@
 	var guesses = []; // Log of how long between each guess
 	var bestTime = 4; // Default best guess time
 	var intervalTime = 4; // Initial time between intervals (initial = 4 sec)
+	// All available color options in game
 	var OPTIONS = ["black", "purple", "blue", "cyan", "green", "yellow", 
 	"orange", "pink", "red"];
+	var sounds = true; // If mute is clicked or not
 
 	// Anonymous function that is called when the page loads
 	window.onload = function() {
 		// Causes the word 'color' in the title to change colors
 		changeColor();
+		// Toggles the sound if the player clicks mute
+		document.getElementById("sound").onclick = mute;
 		// Creates the start button for the game
 		makeButton("Start");
 	};
@@ -37,6 +41,17 @@
 			}
 			document.getElementById(letters[i]).style.color = OPTIONS[randIndex];
 			randIndex++;
+		}
+	}
+
+	// Toggles the sound if the player clicks mute
+	function mute() {
+		sounds = !sounds;
+		var img = document.getElementById("muted");
+		if (sounds) {
+			img.src = "assets/img/play.png";
+		} else {
+			img.src = "assets/img/mute.png";
 		}
 	}
 
@@ -68,6 +83,7 @@
 
 	// Creates a playable game state
 	function makeGame() {
+		document.getElementById("points").innerHTML = correct;
 		time++;
 		guessTime++;
 		if (time > timeCheck) {
@@ -86,7 +102,6 @@
 
 	// Helper function that returns 4 pairs of colors to be used as answer options
 	function createOptions() {
-		// All available color options in game
 		var colors = [];
 		while (colors.length < 4) {
 			var randIndex = Math.floor(Math.random() * OPTIONS.length);
@@ -172,6 +187,10 @@
 
 	// Called if answer clicked was correct answer. Changes stats accordingly
 	function win() {
+		if (sounds) {
+			var sound = new Audio("assets/sounds/win.wav");
+			sound.play();
+		}
 		running = true;
 		if (intervalTime > 1.25) {
 			intervalTime -= 0.25;
@@ -192,6 +211,10 @@
 	/* Called if answer picked was incorrect. Displays stats about game
 	and generates a table of questions and response times */
 	function lose() {
+		if (sounds) {
+			var sound = new Audio("assets/sounds/loss.wav");
+			sound.play();
+		}
 		var lossWord;
 		var lossColor;
 		if (this) {
@@ -280,6 +303,7 @@
 	function preGame() {
 		document.getElementById("statsArea").style.display = "none";
 		document.getElementById("avg").style.display = "none";
+		document.getElementById("points").innerHMTML = "0";
 		time = 0;
 		correct = 0;
 		bestTime = 4;
@@ -294,6 +318,10 @@
 		var num = document.createElement("p");
 		num.id = "num";
 		num.innerHTML = "3";
+		if (sounds) {
+			var sound = new Audio("assets/sounds/count.wav");
+			sound.play();
+		}
 		area.appendChild(num);
 		timer = setInterval(countDown, 1000);
 	}
@@ -305,10 +333,18 @@
 		if (count) {
 			count--;
 			if (count == 0) {
+				if (sounds) {
+					var sound = new Audio("assets/sounds/start.wav");
+					sound.play();
+				}
 				num.style.left = "260px"
 				num.style.color = "green";
 				num.innerHTML = "Go!";
 			} else {
+				if (sounds) {
+					var sound = new Audio("assets/sounds/count.wav");
+					sound.play();
+				}
 				document.getElementById("num").innerHTML = "" + count;
 			}
 		} else {
