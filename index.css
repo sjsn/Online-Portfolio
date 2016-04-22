@@ -57,6 +57,11 @@ body {
 		width: 60%;
 		height: 55%;
 	}
+
+	.proj {
+		width: 500px;
+		margin: 15px 30px;
+	}
 }
 
 @media only screen and (max-width: 500px) {
@@ -107,6 +112,10 @@ body {
 	#imgHolder img {
 		width: 80%;
 		height: 75%;
+	}
+
+	.proj {
+		width: 90%;
 	}
 }
 
@@ -338,4 +347,32 @@ h4, #projects h3 {
 
 #signature {
 	font-family: "courier new";
+}
+
+#projects {
+	text-align: center;
+}
+
+.proj {
+	display: inline-block;
+	vertical-align: top;
+	background-color: #eaf4f6;
+	border-radius: 5px;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.proj h4 {
+	padding-top: 10px;
+}
+
+.projimg {
+	width: 70%;
+	height: 50%;
+}
+
+.proj p {
+	width: 60%;
+	margin: auto;
+	padding: 15px 15px;
 }

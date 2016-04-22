@@ -30,7 +30,7 @@ body {
 	cursor: pointer;
 }
 
-#hed h1 {
+#head h1 {
 	font-size: 35px;
 	margin-bottom: 0px;
 }
@@ -175,16 +175,32 @@ body {
 	display: none;
 }
 
+#tableArea {
+	display: none;
+}
+
 #tableArea table {
 	margin: auto;
 	border: 1px solid black;
 	background-color: white;
 	color: black;
+	margin-top: 20px;
+	border-collapse: collapse;
+}
+
+#tableArea th {
+	padding: 4px;
+}
+
+#results caption {
+	color: red;
+	font-size: 24px;
 }
 
 #tableArea tr, #tableArea td {
 	border: 1px solid black;
 	text-align: left;
+	padding: 4px;
 }
 
 #tableArea h2 {
