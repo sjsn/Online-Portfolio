@@ -1,5 +1,5 @@
 var data = {
-	labels: ["Java", "Javascript", "SQL", "PHP", "Video Editing", "Photography", "Adobe Suite", "Microsoft Office"],
+	labels: ["JavaScript", "SQL", "Python", "PHP", "MEAN Stack", "LAMP Stack", "Java", "Adobe Suite"],
 	datasets: [
 		{
 			label: "My Skillset",
@@ -9,7 +9,7 @@ var data = {
 			pointStrokeColor: "#5fa2a0",
 			pointHighlightFill: "#08a99a",
 			pointHighlightStroke: "#74c1aa",
-			data: [7, 8, 8, 8, 9, 6, 8, 9, 6]
+			data: [9, 8, 8, 6, 9, 8, 7, 8]
 		}
 	]
 }

@@ -63,8 +63,8 @@ body {
 		margin: 15px 30px;
 	}
 
-	.proj p {
-		width: 60%;
+	.proj-desc {
+		width: 80%;
 	}
 }
 
@@ -123,7 +123,7 @@ body {
 		margin-bottom: 20px;
 	}
 
-	.proj p {
+	.proj-desc {
 		width: 80%;
 	}
 }
@@ -196,6 +196,11 @@ a#hideText:hover > span#showText {
 	padding-bottom: 20px;
 }
 
+#kcts {
+	padding-top: 5px;
+	padding-bottom: 20px;
+}
+
 a {
 	color: #80766a;
 	text-decoration: none;
@@ -264,11 +269,11 @@ h4 {
 
 #hobbies {
 	display: inline-block;
-	text-align: center;
 	height: 300px;
 	width: 300px;
 	border-radius: 10%;
 	background-color: #eaf4f6;
+	font-size: 12px;
 }
 
 #hobbies > ul {
@@ -370,6 +375,8 @@ h4 {
 	border-radius: 5px;
 	text-align: center;
 	padding-bottom: 10px;
+	height: 450px;
+	position: relative;
 }
 
 .proj h4 {
@@ -378,18 +385,34 @@ h4 {
 
 .projimg {
 	width: 70%;
-	height: 50%;
 }
 
-.proj p {
+.proj-desc {
 	margin: auto;
 	padding: 15px 15px;
+	color: black;
 }
 
-#shield-img {
+#shield-img, #play-img {
 	width: 30%;
 }
 
-#cloud-img {
+#cloud-img, #ahuna-img {
 	width: 50%;
+}
+
+.proj-link {
+	position: absolute;
+	bottom: 5px;
+	padding: 0px;
+	width: 100%;
+}
+
+.tags {
+	color: #80766a;
+	font-size: 12px;
+}
+
+#ce-img {
+	width: 27%;
 }
